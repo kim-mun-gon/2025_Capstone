@@ -1,0 +1,7 @@
+.ranking-section {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 16px 0;
+  }
+  
