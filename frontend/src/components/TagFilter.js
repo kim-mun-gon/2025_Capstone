@@ -1,9 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./TagFilter.css";
 
 const TagFilter = () => {
-  const tags = ["#재벌님", "#순정남", "#술술읽히는", "#다정남", "#계약관계"];
-  const [selected, setSelected] = useState("#재벌님");
+  const [tags, setTags] = useState([]);
+  const [selected, setSelected] = useState(null);
+
+  useEffect(() => {
+    fetch("http://localhost:5001/api/tags")
+      .then((res) => res.json())
+      .then((data) => {
+        setTags(data);
+        setSelected(data[0]);
+      });
+  }, []);
 
   return (
     <div className="tag-wrapper">
