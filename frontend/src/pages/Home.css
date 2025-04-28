@@ -12,3 +12,12 @@
     font-size: 16px;
   }
   
+  .ranking-section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 32px;
+  }
+  

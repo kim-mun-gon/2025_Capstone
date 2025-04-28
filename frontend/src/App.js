@@ -1,10 +1,16 @@
-import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import './App.css';  // 이 줄이 꼭 있어야 스타일 적용됨
-
+import WebnovelForm from "./pages/WebnovelForm";  // ✅ .jsx여도 import는 .js처럼 생략 가능
 
 function App() {
-  return <Home />;
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/webnovel-form" element={<WebnovelForm />} /> {/* ✅ 이 경로 추가 */}
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;

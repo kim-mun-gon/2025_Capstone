@@ -1,0 +1,74 @@
+/* WebnovelForm.css */
+
+.webnovel-form-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .form-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .input-form input,
+  .input-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .submit-btn {
+    width: 40%;
+    align-self: center;
+    padding: 12px 24px;
+    background-color: #6d8bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .loading-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .loading-text {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar-wrapper {
+    width: 100%;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .progress-bar {
+    height: 18px;
+    background-color: #6d8bff;
+    transition: width 0.3s ease;
+  }
+  

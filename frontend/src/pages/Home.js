@@ -38,12 +38,13 @@ function Home() {
       <TagFilter />
       <PredictButton />
       <div className="ranking-section">
-        {naverRanking.length === 0 ? <div className="loading">로딩 중...</div> : <RankingCard title="네이버 웹소설 랭킹" list={naverRanking} />}
-        {teenRanking.length === 0 ? <div className="loading">로딩 중...</div> : <RankingCard title="10대 랭킹" list={teenRanking} />}
-        {twentyRanking.length === 0 ? <div className="loading">로딩 중...</div> : <RankingCard title="20대 랭킹" list={twentyRanking} />}
-        {thirtyRanking.length === 0 ? <div className="loading">로딩 중...</div> : <RankingCard title="30대 랭킹" list={thirtyRanking} />}
-        {fortyRanking.length === 0 ? <div className="loading">로딩 중...</div> : <RankingCard title="40대 랭킹" list={fortyRanking} />}
+        <RankingCard title="네이버 웹소설 랭킹" list={naverRanking} />
+        <RankingCard title="10대 랭킹" list={teenRanking} />
+        <RankingCard title="20대 랭킹" list={twentyRanking} />
+        <RankingCard title="30대 랭킹" list={thirtyRanking} />
+        <RankingCard title="40대 랭킹" list={fortyRanking} />
       </div>
+
     </div>
   );
 }
