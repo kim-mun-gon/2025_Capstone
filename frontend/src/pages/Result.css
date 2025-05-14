@@ -1,0 +1,180 @@
+.result-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+  }
+  
+  .card-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .result-card {
+    flex: 1;
+    background: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  
+  .result-card .title {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 6px;
+  }
+  
+  .result-card .value {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .result-card .value small {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .result-card .badge {
+    font-size: 12px;
+    background: #5cb85c;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin-left: 6px;
+  }
+  
+  .progress-bar {
+    background: #eee;
+    height: 8px;
+    border-radius: 6px;
+    margin-top: 8px;
+    overflow: hidden;
+  }
+  
+  .progress-bar > div {
+    background-color: #6e7ff3;
+    height: 100%;
+    border-radius: 6px;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tab-buttons button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #f4f4f4;
+    color: #444;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .tab-buttons button.active {
+    background: #fff;
+    border-bottom: 2px solid #6e7ff3;
+    color: #000;
+  }
+  
+  .similar-novels, .detailed-analysis, .suggestions {
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    margin-bottom: 24px;
+  }
+  
+  .similar-novels h3,
+  .detailed-analysis h3,
+  .suggestions h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .sub {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 16px;
+  }
+  
+  .similar-novels ul {
+    max-height: 240px;   /* 필요시 조정 가능 */
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .similar-novels li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .similar-novels .rank {
+    font-weight: bold;
+    margin-right: 12px;
+  }
+  
+  .similar-novels .match {
+    font-size: 13px;
+    background: #eee;
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+  
+  .suggestions ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .suggestions li {
+    margin-bottom: 8px;
+  }
+  
+  .detailed-analysis .genre-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  
+  .detailed-analysis .genre-tags span {
+    background: #f0f0f0;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #333;
+  }
+  
+  .detailed-analysis .metric {
+    margin-bottom: 20px;
+  }
+  
+  .detailed-analysis .metric-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  
+  .detailed-analysis .progress-bar {
+    height: 8px;
+    background: #eee;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .detailed-analysis .progress-bar > div {
+    height: 100%;
+    background-color: #6e7ff3;
+    border-radius: 6px;
+  }
+  

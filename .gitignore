@@ -1,0 +1,17 @@
+# 파이썬 캐시
+__pycache__/
+*.pyc
+
+# 모델 파일
+*.h5
+*.pkl
+*.joblib
+*.pt
+
+# 데이터 파일
+*.csv
+
+# 기타
+.DS_Store
+.env
+.ipynb_checkpoints/

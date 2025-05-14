@@ -1,0 +1,24 @@
+.predict-wrapper {
+    text-align: center;
+    margin: 32px 0;
+  }
+  
+  .predict-btn {
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 999px;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+  }
+  
+  .predict-btn:hover {
+    background-color: #43a047;
+    box-shadow: 0 6px 14px rgba(76, 175, 80, 0.45);
+    transform: translateY(-2px);
+  }
+  

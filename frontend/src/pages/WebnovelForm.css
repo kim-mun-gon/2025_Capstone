@@ -1,0 +1,84 @@
+.webnovel-form-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.input-form input,
+.input-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.submit-btn {
+  width: 40%;
+  align-self: center;
+  padding: 12px 24px;
+  background-color: #6d8bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #5a6ee0;
+}
+
+.loading-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.loading-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.progress-bar-wrapper {
+  width: 80%;
+  height: 10px;
+  background: #eee;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #5f9ea0;
+  transition: width 0.3s ease-in-out;
+}
